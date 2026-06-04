@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing | Nexora Solutions</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.pricing-container{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:42px;
+    color:#2563eb;
+    margin:20px 0;
+    font-weight:bold;
+}
+
+ul{
+    list-style:none;
+    margin:20px 0;
+}
+
+ul li{
+    padding:8px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:25px;
+}
+
+.featured{
+    transform:scale(1.05);
+    border:3px solid #2563eb;
+}
+
+.back{
+    text-align:center;
+    margin-bottom:40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Choose Your Plan</h1>
+    <p>Flexible pricing for every business.</p>
+</header>
+
+<div class="pricing-container">
+
+    <div class="card">
+        <h2>Starter</h2>
+        <div class="price">$19/mo</div>
+
+        <ul>
+            <li>✓ 5 Projects</li>
+            <li>✓ Basic Analytics</li>
+            <li>✓ Email Support</li>
+        </ul>
+
+        <a href="#" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="card featured">
+        <h2>Professional</h2>
+        <div class="price">$49/mo</div>
+
+        <ul>
+            <li>✓ Unlimited Projects</li>
+            <li>✓ AI Insights</li>
+            <li>✓ Priority Support</li>
+            <li>✓ API Access</li>
+        </ul>
+
+        <a href="#" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="card">
+        <h2>Enterprise</h2>
+        <div class="price">Custom</div>
+
+        <ul>
+            <li>✓ Dedicated Manager</li>
+            <li>✓ Custom Integration</li>
+            <li>✓ 24/7 Support</li>
+            <li>✓ SLA Guarantee</li>
+        </ul>
+
+        <a href="#" class="btn">Contact Sales</a>
+    </div>
+
+</div>
+
+<div class="back">
+    <a href="index.html" class="btn">← Back to Home</a>
+</div>
+
+</body>
+</html>
