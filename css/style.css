@@ -25,3 +25,22 @@ body{
 .btn-primary:hover{
     background:#1d4ed8;
 }
+.pricing-btn{
+    display:inline-block;
+    padding:14px 32px;
+    border:2px solid #ffffff;
+    border-radius:50px;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:600;
+    font-size:16px;
+    transition:all .3s ease;
+    margin:10px;
+}
+
+.pricing-btn:hover{
+    background:#ffffff;
+    color:#2563eb;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(255,255,255,0.3);
+}
